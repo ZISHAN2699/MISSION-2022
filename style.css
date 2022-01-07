@@ -8,7 +8,7 @@ h1{
 .red-color{
     color: teal;
 }
-section{
+.flexible-container{
  display: flex;
 }
 .half-width{
@@ -26,3 +26,29 @@ section{
     color: white;
     font-weight: 700;
 }
+.experience-item{
+    width: 40%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: left 20px; ;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px gray ;
+}
+#pic{
+    background-image: url(mession-2022-main/images/illustrators/illustrator-1.png);
+    background-repeat: no-repeat;
+}
+#imt{
+    background-image: url(mession-2022-main/images/illustrators/illustrator-2.png);
+}
+#imb{
+    background-image: url(mession-2022-main/images/illustrators/illustrator-3.png);
+}
+.ZISHAN{
+    width:50% ;
+    padding:2% ;
+}
+.ZISHAN img{
+    width:50% ;
+}
+
